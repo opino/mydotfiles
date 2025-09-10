@@ -16,6 +16,8 @@ Plug 'linusng/green-shades.vim'
 call plug#end()
 
 set number
+
+" https://lanbugs.de/howtos/linux-tipps-tricks/vim-for-yaml-editing/
 autocmd FileType yaml,yml setlocal ts=2 sts=2 sw=2 et ai
 set colorcolumn=80
 set cursorcolumn
